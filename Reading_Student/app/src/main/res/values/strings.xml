@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Reading_Student</string>
+
+
+    <string-array name="reward_names">
+        <item>První záznam</item>
+        <item>První úkol</item>
+        <item>Zapálený čtenář</item>
+        <item>Rychločtenář</item>
+        <item>Rozdělení práce</item>
+        <item>Pilný žák</item>
+        <item>Mistr</item>
+    </string-array>
+
+    <string-array name="reward_decsc">
+        <item>Přidej první záznam</item>
+        <item>Splň první úkol</item>
+        <item>Přečti víc stran než kolik bylo zadáno</item>
+        <item>Přečti víc stran za kratší dobu než byla zadaná</item>
+        <item>Měj rozečtených více plánů</item>
+        <item>Splň plán ještě v den zadání</item>
+        <item>Dokonči 10 plánů</item>
+    </string-array>
+</resources>

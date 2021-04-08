@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddGroup"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Název"
+        android:id="@+id/group_name_tv"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Přidání studentů"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email studenta"
+        android:inputType="textEmailAddress"
+        android:id="@+id/student_add_edittext"
+        />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Přidat"
+          android:layout_marginLeft="30dp"
+          android:id="@+id/student_add_button"
+
+          />
+</LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/students_add_recycler"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uložit"
+        android:layout_gravity="center"
+        android:id="@+id/save_group_button"
+        />
+
+
+</LinearLayout>

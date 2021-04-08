@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPlan"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Název plánu"
+        android:id="@+id/plan_name_edittext"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instrukce:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Instrukce"
+        android:id="@+id/plan_instructions_edittext"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Počet stran"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Počet stran"
+        android:inputType="number"
+        android:id="@+id/plan_pages_edittext"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doba ve formátu hh:mm"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doba čtení"
+        android:inputType="time"
+        android:id="@+id/plan_time_edittext"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vytvořit plán"
+        android:id="@+id/create_plan_button"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

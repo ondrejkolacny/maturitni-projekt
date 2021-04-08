@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:id="@+id/parent_layout"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/start_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Přidat"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_baseline_add_24"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odhlásit"
+        android:id="@+id/logoutButton"/>
+</RelativeLayout>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/groups_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+</LinearLayout>

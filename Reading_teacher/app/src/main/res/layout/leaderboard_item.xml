@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_gravity="center_vertical"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/leaderboard_name"
+            android:text="Uživatel"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/leaderboard_percent"
+            android:text="Postup"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
